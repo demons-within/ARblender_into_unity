@@ -47,8 +47,16 @@ Subsystems are implemented in other packages, so to use AR Foundation, you will 
 
 ## Glossary
 Term 	Meaning
-Tracking 	The ability of the AR device to determine its relative position and orientation in the world. If the environment is too dark, for example, the device may "lose tracking", which means it can no longer accurately report its position.
-Trackable 	A real-world feature detected and/or tracked by the AR device, e.g., a planar surface.
-Feature Point 	A specific point in a point cloud. AR devices use a camera and image analysis to track specific points in the world which are used to build a map of its environment. These are usually high frequency elements, such as a knot in a wood-grain surface.
-Session 	Refers to an AR instance.
-Session Space 	The coordinate system relative to the beginning of the AR session. For example, session space (0, 0, 0) refers to the position at which the AR session was created. An AR device typically reports trackables and tracking information relative to its session origin.
+Tracking - The ability of the AR device to determine its relative position and orientation in the world. If the environment is too dark, for example, the device may "lose tracking", which means it can no longer accurately report its position.
+
+
+Trackable -	A real-world feature detected and/or tracked by the AR device, e.g., a planar surface.
+
+
+Feature Point -	A specific point in a point cloud. AR devices use a camera and image analysis to track specific points in the world which are used to build a map of its environment. These are usually high frequency elements, such as a knot in a wood-grain surface.
+
+
+Session - Refers to an AR instance.
+
+
+Session Space -	The coordinate system relative to the beginning of the AR session. For example, session space (0, 0, 0) refers to the position at which the AR session was created. An AR device typically reports trackables and tracking information relative to its session origin.
